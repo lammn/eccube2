@@ -1,0 +1,2 @@
+<p><a href="http://www.h-marche.com/products/detail.php?product_id=263"><img src="http://www.h-marche.com/user_data/packages/bootstrap3/img/banner/listentheskin-s.jpg" class="img-responsive mb10" alt="テレビショッピング：ハナマルシェ「ぷるるん乳酸菌」ご購入はこちら"></a></p>
+<p><a href="http://www.h-marche.com/products/detail.php?product_id=269"><img src="http://www.h-marche.com/user_data/packages/bootstrap3/img/banner/GRANGE2.jpg" class="img-responsive mb10" alt="テレビショッピング：ハナマルシェ「黒毛和牛A5ランクローストビーフ」ご購入はこちら"></a></p>
