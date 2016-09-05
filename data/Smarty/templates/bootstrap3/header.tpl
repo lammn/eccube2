@@ -31,15 +31,6 @@
     <nav>
         <!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/bloc/category_tree_fork.tpl" children=$arrTree treeID="" display=1}-->
     </nav>
-    <div class="social">
-        <h2>Stay Connected</h2>
-        <ul>
-            <li><a href=""><i class="fa fa-facebook-square fa-3x"></i></a></li>
-            <li><a href=""><i class="fa fa-twitter-square fa-3x"></i></a></li>
-            <li><a href=""><i class="fa fa-tumblr-square fa-3x"></i></a></li>
-            <li><a href=""><i class="fa fa-google-plus-square fa-3x"></i></a></li>
-        </ul>
-    </div>
 </div><!-- #drawer-right -->
 
 <div id="wrapper">
@@ -72,7 +63,7 @@
             <header class="block-heading cleafix">
                 <a href="#" class="btn btn-o btn-lg pull-right">View All</a>
                 <h1>Our Products</h1>
-                <p>ココロとカラダが喜ぶアイテムを提供するテレビショッピング番組</p>
+
             </header>
             <section class="block-body">
                 <div class="row">
@@ -122,36 +113,15 @@
     <div class="content-block parallax" id="services">
         <div class="container text-center">
             <header class="block-heading cleafix">
-                <h1>Our Services</h1>
-                <p>A little about what we do</p>
+                <h1>Hana Marche</h1>
+                <p>ココロとカラダが喜ぶアイテムを提供するテレビショッピング番組</p>
             </header>
             <section class="block-body">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-12">
                         <div class="service">
-                            <i class="fa fa-send-o"></i>
-                            <h2>Illustration</h2>
-                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec,
-                                sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in
-                                lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service">
-                            <i class="fa fa-heart-o"></i>
-                            <h2>3D Modeling</h2>
-                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec,
-                                sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in
-                                lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service">
-                            <i class="fa fa-camera-retro"></i>
-                            <h2>Photography</h2>
-                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec,
-                                sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in
-                                lorem.</p>
+                            <h2>テレビショッピング番組</h2>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/q-F8vsGFgBM?rel=0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -164,17 +134,18 @@
         <div class="container">
             <header class="block-heading cleafix">
                 <a href="#" class="btn btn-o btn-lg pull-right">View All</a>
-                <h1>From the Blog</h1>
+                <h1>Information</h1>
                 <p>Keep up with the latest happenings.</p>
             </header>
             <section class="block-body">
                 <div class="row">
                     <div class="col-sm-4 blog-post">
                         <img src="<!--{$TPL_URLPATH}-->flusk/images/bike_water1-1000x600.jpg">
-                        <a href="#"><h2>Design Your Mind</h2></a>
+                        <a href="#"><h2>8月の放送スケジュール</h2></a>
                         <div class="date">3 Nov, 2014</div>
-                        <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales
-                            nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
+                        <p>TVショッピング番組「ハナマルシェ」8月の放送スケジュールです!
+                            <br>
+                            ★☆イマジカBS(BS　ch.252)☆★
                         <a href="">Read More</a>
                     </div>
                     <div class="col-sm-4 blog-post">
@@ -210,14 +181,14 @@
     <div class="content-block" id="testimonials">
         <div class="container">
             <header class="block-heading cleafix">
-                <h1>Testimonials</h1>
+                <h1>今月のおすすめ</h1>
                 <p>Some happy customers have to say.</p>
             </header>
             <section class="block-body">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="testimonial">
-                            <img src="<!--{$TPL_URLPATH}-->flusk/images/testimonial_31-190x190.jpg">
+                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg">
                             <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec,
                                 sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in
                                 lorem.</p>
@@ -227,7 +198,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="testimonial">
-                            <img src="<!--{$TPL_URLPATH}-->flusk/images/testimonial_11-190x190.jpg">
+                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg">
                             <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec,
                                 sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in
                                 lorem.</p>
@@ -237,7 +208,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="testimonial">
-                            <img src="<!--{$TPL_URLPATH}-->flusk/images/testimonial_22-190x190.jpg">
+                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg">
                             <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec,
                                 sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in
                                 lorem.</p>
