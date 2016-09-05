@@ -1,0 +1,20 @@
+# Created by .ignore support plugin (hsz.mobi)
+data/cache/
+data/Smarty/templates_c/
+.idea/deployment.xml
+.idea/vcs.xml
+data/downloads/module/
+data/downloads/plugin/
+data/downloads/tmp/
+data/downloads/update/
+data/logs/
+data/upload/
+html/install/index22.php
+html/install/temp/install.log
+html/install/temp/install.log.1
+html/plugin/
+html/upload/graph_image/
+html/upload/mobile_image/
+html/upload/temp_image/
+html/upload/temp_plugin/
+html/upload/temp_template/

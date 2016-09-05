@@ -62,7 +62,7 @@
         <div class="container">
             <header class="block-heading cleafix">
                 <a href="#" class="btn btn-o btn-lg pull-right">View All</a>
-                <h1>Our Products</h1>
+                <h1>商品カテゴリー</h1>
 
             </header>
             <section class="block-body">
@@ -134,35 +134,44 @@
         <div class="container">
             <header class="block-heading cleafix">
                 <a href="#" class="btn btn-o btn-lg pull-right">View All</a>
-                <h1>Information</h1>
+                <h1>新着商品</h1>
                 <p>Keep up with the latest happenings.</p>
             </header>
             <section class="block-body">
                 <div class="row">
                     <div class="col-sm-4 blog-post">
-                        <img src="<!--{$TPL_URLPATH}-->flusk/images/bike_water1-1000x600.jpg">
-                        <a href="#"><h2>8月の放送スケジュール</h2></a>
-                        <div class="date">3 Nov, 2014</div>
-                        <p>TVショッピング番組「ハナマルシェ」8月の放送スケジュールです!
-                            <br>
-                            ★☆イマジカBS(BS　ch.252)☆★
-                        <a href="">Read More</a>
+                        <img src="<!--{$TPL_URLPATH}-->flusk/images/050601.jpg">
+                        <a href="#"><h2>ウォールクロック</h2></a>
+                        <p>￥14,580 (Tax-in)</p>
                     </div>
                     <div class="col-sm-4 blog-post">
-                        <img src="<!--{$TPL_URLPATH}-->flusk/images/mac_glasses1-1000x600.jpg">
-                        <a href="#"><h2>Winter Is Comming</h2></a>
-                        <div class="date">3 Nov, 2014</div>
-                        <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales
-                            nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-                        <a href="">Read More</a>
+                        <img src="<!--{$TPL_URLPATH}-->flusk/images/050601.jpg">
+                        <a href="#"><h2>ウォールクロック</h2></a>
+                        <p>￥14,580 (Tax-in)</p>
                     </div>
                     <div class="col-sm-4 blog-post">
-                        <img src="<!--{$TPL_URLPATH}-->flusk/images/road-1000x600.jpg">
-                        <a href="#"><h2>The Illustration</h2></a>
-                        <div class="date">3 Nov, 2014</div>
-                        <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales
-                            nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-                        <a href="">Read More</a>
+                        <img src="<!--{$TPL_URLPATH}-->flusk/images/050601.jpg" >
+                        <a href="#"><h2>ウォールクロック</h2></a>
+                        <p>￥14,580 (Tax-in)</p>
+                    </div>
+                </div>
+            </section>
+            <section class="block-body">
+                <div class="row">
+                    <div class="col-sm-4 blog-post">
+                        <img src="<!--{$TPL_URLPATH}-->flusk/images/050601.jpg">
+                        <a href="#"><h2>ウォールクロック</h2></a>
+                        <p>￥14,580 (Tax-in)</p>
+                    </div>
+                    <div class="col-sm-4 blog-post">
+                        <img src="<!--{$TPL_URLPATH}-->flusk/images/050601.jpg">
+                        <a href="#"><h2>ウォールクロック</h2></a>
+                        <p>￥14,580 (Tax-in)</p>
+                    </div>
+                    <div class="col-sm-4 blog-post">
+                        <img src="<!--{$TPL_URLPATH}-->flusk/images/050601.jpg" >
+                        <a href="#"><h2>ウォールクロック</h2></a>
+                        <p>￥14,580 (Tax-in)</p>
                     </div>
                 </div>
             </section>
@@ -172,9 +181,33 @@
 
     <div class="content-block parallax" id="parallax">
         <div class="container text-center">
-            <h1>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
-                nulla magna, gravida eget ultricies sit amet, hendrerit.</h1>
-            <a href="" class="btn btn-o-white btn-lg">Get a free quote</a>
+            <h1>2016年08月01日
+                8月の放送スケジュール
+            </h1>
+            <p>
+                TVショッピング番組「ハナマルシェ」8月の放送スケジュールです!<br>
+
+                ★☆イマジカBS(BS　ch.252)☆★<br>
+
+                11(木)、12(金)、13(土)、17(水)、18(木)、19(金)、<br>
+                24(水)、26(金)、28(日)、29(月)、30(火)、31(水)<br>
+
+
+                ★☆歌謡ポップスチャンネル(CS　ch.329)☆★<br>
+
+                12(金)、17(水)、18(木)、<br>
+                20(土)、22(月)、30(火)<br>
+
+
+                ★☆J:com札幌エリア☆★<br>
+
+                絶賛、毎日放送中!<br>
+
+
+                夏真っ盛り!今月の「HANA MARCHE」は夏より熱いアイテム目白押し(^.^)
+                お見逃しなく!
+            </p>
+            <a href="" class="btn btn-o-white btn-lg">INFORMATION</a>
         </div>
     </div><!-- #parallax -->
 
@@ -182,38 +215,52 @@
         <div class="container">
             <header class="block-heading cleafix">
                 <h1>今月のおすすめ</h1>
-                <p>Some happy customers have to say.</p>
+                <p>Out recommendation product of this month.</p>
             </header>
             <section class="block-body">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="testimonial">
-                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg">
-                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec,
-                                sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in
-                                lorem.</p>
-                            <strong>Jhon Doe</strong><br/>
-                            <span>Head of Ideas, Technext</span>
+                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg" height="220" width="220">
+                            <p>いちごの飲むお酢</p>
+                            <strong>￥5,980～7,980 (Tax-in)</strong>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="testimonial">
-                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg">
-                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec,
-                                sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in
-                                lorem.</p>
-                            <strong>Jane Doe</strong><br/>
-                            <span>CEO, Apple Inc</span>
+                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg" height="220" width="220">
+                            <p>いちごの飲むお酢</p>
+                            <strong>￥5,980～7,980 (Tax-in)</strong>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="testimonial">
-                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg">
-                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec,
-                                sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in
-                                lorem.</p>
-                            <strong>Albert Doe</strong><br/>
-                            <span>Team Lead, Design Studio</span>
+                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg" height="220" width="220">
+                            <p>焼きカレーセット</p>
+                            <strong>￥5,980～7,980 (Tax-in)</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg" height="220" width="220">
+                            <p>いちごの飲むお酢</p>
+                            <strong>￥5,980～7,980 (Tax-in)</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg" height="220" width="220">
+                            <p>いちごの飲むお酢</p>
+                            <strong>￥5,980～7,980 (Tax-in)</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <img src="<!--{$TPL_URLPATH}-->flusk/images/000000000289.jpg" height="220" width="220">
+                            <p>焼きカレーセット</p>
+                            <strong>￥5,980～7,980 (Tax-in)</strong>
                         </div>
                     </div>
                 </div>
@@ -250,12 +297,30 @@
                 </div>
             </section>
         </div>
+
+        <div class="footer" style="margin-top: 70px;">
+            <div class="container text-center">
+                <p class="mb10">ココロとカラダが喜ぶアイテムを提供するテレビショッピング番組 『HANA MARCHE』</p>
+                <ul class="center-block list-inline cf">
+                    <li> <a href="<!--{$smarty.const.ROOT_URLPATH}-->order/">特定商取引法に基づく表記</a> ｜</li>
+                    <li> <a href="<!--{$smarty.const.ROOT_URLPATH}-->guide/privacy.php">プライバシーポリシー</a> ｜</li>
+                    <li> <a href="<!--{$smarty.const.ROOT_URLPATH}-->contact/">お問い合わせ</a></li>
+                </ul>
+                <address class="copyright">Copyright &copy;
+                    &nbsp;<!--{if $smarty.const.RELEASE_YEAR != $smarty.now|date_format:"%Y"}--><!--{$smarty.const.RELEASE_YEAR}-->-<!--{/if}--><!--{$smarty.now|date_format:"%Y"}-->
+                    &nbsp;Hana Marche All rights reserved.
+                </address>
+            </div>
+
+        </div>
     </div><!-- #contact -->
+
+
 
 </div>
 
 
-<div lass="container">
+<div class="container">
 
     <div id="header_utility">
         <div id="header_navi" class="collapse navbar-collapse">
@@ -392,6 +457,8 @@
         </div>
     </nav>
 </section>
+
+
 <!-- for small mobile -->
 <!--{/strip}-->
 <!--▲HEADER-->
