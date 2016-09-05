@@ -29,29 +29,7 @@
     </div>
     <h2>Navigate</h2>
     <nav>
-        <ul class="nav nav-pills nav-stacked">
-            <li>
-                <a href="#wrapper"><i class="fa fa-home"></i> Home</a>
-            </li>
-            <li>
-                <a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a>
-            </li>
-            <li>
-                <a href="#services"><i class="fa fa-tasks"></i> Services</a>
-            </li>
-            <li>
-                <a href="#blog"><i class="fa fa-wordpress"></i> Blog</a>
-            </li>
-            <li>
-                <a href="#parallax"><i class="fa fa-heart"></i> Parallax</a>
-            </li>
-            <li>
-                <a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
-            </li>
-            <li>
-                <a href="#contact"><i class="fa fa-phone-square"></i> Contact</a>
-            </li>
-        </ul>
+        <!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/bloc/category_tree_fork.tpl" children=$arrTree treeID="" display=1}-->
     </nav>
     <div class="social">
         <h2>Stay Connected</h2>
@@ -93,47 +71,47 @@
         <div class="container">
             <header class="block-heading cleafix">
                 <a href="#" class="btn btn-o btn-lg pull-right">View All</a>
-                <h1>Our Latest Works</h1>
-                <p>Take a look at some of our recent products</p>
+                <h1>Our Products</h1>
+                <p>ココロとカラダが喜ぶアイテムを提供するテレビショッピング番組</p>
             </header>
             <section class="block-body">
                 <div class="row">
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/rain_1-320x240.jpg)">
-                            <span class="btn btn-o-white">Lorem Rocks</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/041001.jpg)">
+                            <span class="btn btn-o-white">生活雑貨</span>
                         </a>
                     </div>
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/min_icons_thumb1-320x240.jpg)">
-                            <span class="btn btn-o-white">Lorem Rocks</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/050201.jpg)">
+                            <span class="btn btn-o-white">健康</span>
                         </a>
                     </div>
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/flat_icons_thumb.jpg)">
-                            <span class="btn btn-o-white">Lorem Rocks</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/010201.jpg)">
+                            <span class="btn btn-o-white">ファッション</span>
                         </a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/wood-320x240.jpg)">
-                            <span class="btn btn-o-white">Lorem Rocks</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/050601.jpg)">
+                            <span class="btn btn-o-white">ビューティー</span>
                         </a>
                     </div>
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/bike-320x240.jpg)">
-                            <span class="btn btn-o-white">Lorem Rocks</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/040901.jpg)">
+                            <span class="btn btn-o-white">スイーツ</span>
                         </a>
                     </div>
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/six_1-320x240.jpg)">
-                            <span class="btn btn-o-white">Lorem Rocks</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/080301.jpg)">
+                            <span class="btn btn-o-white">グルメ</span>
                         </a>
                     </div>
                 </div>

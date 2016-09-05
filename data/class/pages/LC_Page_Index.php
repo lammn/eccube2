@@ -22,7 +22,7 @@
  */
 
 require_once CLASS_EX_REALDIR . 'page_extends/LC_Page_Ex.php';
-
+require_once CLASS_EX_REALDIR . 'page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Category_Ex.php';
 /**
  * Index のページクラス.
  *
@@ -68,5 +68,9 @@ class LC_Page_Index extends LC_Page_Ex
         $this->tpl_title = '';
         $objCustomer = new SC_Customer_Ex();
         $this->isLogin = $objCustomer->isLoginSuccess(true);
+        $Category = new LC_Page_FrontParts_Bloc_Category();
+        $Category->action();
+        $this->arrTree = $Category->arrTree;
+        $this->arrCat = $Category->arrCat;
     }
 }

@@ -42,7 +42,7 @@
 	///////////////////////////////
 
 	function setHomeBannerHeight() {
-		var windowHeight = jQuery(window).height();
+		var windowHeight = jQuery(window).height();	
 		jQuery('#header').height(windowHeight);
 	}
 
@@ -51,10 +51,10 @@
 	///////////////////////////////
 
 	function centerHomeBannerText() {
-		var bannerText = jQuery('#header > .center');
-		var bannerTextTop = (jQuery('#header').actual('height') / 2) - (jQuery('#header > .center').actual('height') / 2) - 40;
-		bannerText.css('padding-top', bannerTextTop + 'px');
-		bannerText.show();
+			var bannerText = jQuery('#header > .center');
+			var bannerTextTop = (jQuery('#header').actual('height')/2) - (jQuery('#header > .center').actual('height')/2) - 40;		
+			bannerText.css('padding-top', bannerTextTop+'px');		
+			bannerText.show();
 	}
 
 
@@ -81,7 +81,7 @@
 	}
 
 	function setHeaderBackground() {		
-		var scrollTop = jQuery(window).scrollTop(); // our current vertical position from the top	
+		var scrollTop = jQuery(window).scrollTop(); // our current vertical position from the top
 		
 		if (scrollTop > 300 || jQuery(window).width() < 700) { 
 			jQuery('#header .top').addClass('solid');
@@ -118,9 +118,9 @@
 	});
 
 	jQuery('nav > ul > li > a').click(function(e){
-		e.preventDefault();
-		jQuery.scrollTo(jQuery(this).attr('href'), 400, { offset:-(jQuery('#header .top').height()), axis:'y' });
-	})
+		// e.preventDefault();
+		// jQuery.scrollTo(jQuery(this).attr('href'), 400, { offset:-(jQuery('#header .top').height()), axis:'y' });
+	});
 
 	jQuery(window).scroll( function() {
 	   setHeaderBackground();
