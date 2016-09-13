@@ -43,7 +43,10 @@
 
 	function setHomeBannerHeight() {
 		var windowHeight = jQuery(window).height();	
+		var windowWidth = jQuery(window).width();
 		jQuery('#header').height(windowHeight);
+		jQuery('#myvideo').height((windowWidth*0.6)/1.7);
+		jQuery('#myvideo').width(windowWidth*0.6);
 	}
 
 	///////////////////////////////

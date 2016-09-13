@@ -22,23 +22,6 @@
 
 <!--▼FOOTER-->
 <!--{strip}-->
-    <div class="pagetop cf">
-  <p><a href="#top"><i class="fa fa-chevron-up fa-2x"></i> pagetop</a></p>
-</div>
-<footer class="footer">
-  <div class="container">
-    <p class="mb10">ココロとカラダが喜ぶアイテムを提供するテレビショッピング番組 『<!--{$arrSiteInfo.shop_name|h}-->』</p>
-    <ul class="center-block list-inline cf">
-        <li> <a href="<!--{$smarty.const.ROOT_URLPATH}-->order/">特定商取引法に基づく表記</a> ｜</li>
-        <li> <a href="<!--{$smarty.const.ROOT_URLPATH}-->guide/privacy.php">プライバシーポリシー</a> ｜</li>
-        <li> <a href="<!--{$smarty.const.ROOT_URLPATH}-->contact/">お問い合わせ</a></li>
-      </ul>
-  </div>
-   <address class="copyright">Copyright c
-                &nbsp;<!--{if $smarty.const.RELEASE_YEAR != $smarty.now|date_format:"%Y"}--><!--{$smarty.const.RELEASE_YEAR}-->-<!--{/if}--><!--{$smarty.now|date_format:"%Y"}-->
-                &nbsp;<!--{$arrSiteInfo.shop_name_eng|default:$arrSiteInfo.shop_name|h}--> All rights reserved.
-            </address>
-</footer>
 <!--{/strip}-->
 <!--▲FOOTER-->
 

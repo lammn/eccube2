@@ -18,18 +18,51 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA    02111-1307, USA.
+ <!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/bloc/category_tree_fork.tpl" children=$arrTree treeID="" display=1}-->
  *}-->
 
 <!--▼HEADER-->
 <!--{strip}-->
-
+</head>
+<style>
+    #container{
+        display:none;
+    }
+    body{
+        font-family:Meiryo, "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    }
+     
+    #portfolio{
+        font-size:20px;
+    }
+</style>
 <div id="drawer-right">
     <div class="cross text-right">
         <a class="toggleDrawer" href="#"><i class="fa fa-times-circle fa-2x"></i></a>
     </div>
     <h2>Navigate</h2>
     <nav>
-        <!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/bloc/category_tree_fork.tpl" children=$arrTree treeID="" display=1}-->
+        <ul class="nav nav-pills nav-stacked">
+            <li>
+			    <a href="#wrapper">GOURMET</a>
+			</li>
+			<li>
+			    <a href="#wrapper">BEAUTY</a>
+			</li>
+			<li>
+			    <a href="#wrapper">HEALTH</a>
+			</li>
+			<li>
+			    <a href="#wrapper">SWEETS</a>
+			</li>
+			<li>
+			    <a href="#wrapper">LIFE</a>
+			</li>
+			<li>
+			    <a href="#wrapper">FASHION</a>
+			</li>
+				
+		</ul>
     </nav>
 </div><!-- #drawer-right -->
 
@@ -58,84 +91,93 @@
         </section>
     </div><!-- header -->
 
+    <div class="content-block" id="services">
+            <div class="container text-center">
+                <header class="block-heading cleafix">
+                    <h1>Hana Marche</h1>
+                    <p>ココロとカラダが喜ぶアイテムを提供するテレビショッピング番組</p>
+                </header>
+                <section class="block-body" style='margin-top:10px;'>
+                    <div>
+                        <video id="myvideo" class="video-js" controls preload="auto"
+                                  poster="<!--{$TPL_URLPATH}-->flusk/images/HANAMARCHE1.png" data-setup="{}">
+                                    <source src="<!--{$TPL_URLPATH}-->flusk/images/animation.mp4" type='video/mp4'>
+                                    <source src="<!--{$TPL_URLPATH}-->flusk/images/animation.webm" type='video/webm'>
+                                    <p class="vjs-no-js">
+                                      To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                    </p>
+                        </video>
+                    </div>
+                </section>
+            </div>
+        </div><!-- #services -->
+    
     <div class="content-block" id="portfolio">
         <div class="container">
             <header class="block-heading cleafix">
                 <a href="#" class="btn btn-o btn-lg pull-right">View All</a>
-                <h1>商品カテゴリー</h1>
+                <h1>Product Category</h1>
 
             </header>
             <section class="block-body">
                 <div class="row">
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/041001.jpg)">
-                            <span class="btn btn-o-white">生活雑貨</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/gourmet.jpg)">
+                          
                         </a>
+                        <p>GOURMET</p>
                     </div>
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/050201.jpg)">
-                            <span class="btn btn-o-white">健康</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/beauty.jpg)">
                         </a>
+                         <p>BEAUTY</p>
                     </div>
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/010201.jpg)">
-                            <span class="btn btn-o-white">ファッション</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/health.jpg)">
+                            
                         </a>
+                         <p>HEALTH</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/050601.jpg)">
-                            <span class="btn btn-o-white">ビューティー</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/sweets.jpg)">
+                            
                         </a>
+                         <p>SWEETS</p>
                     </div>
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/040901.jpg)">
-                            <span class="btn btn-o-white">スイーツ</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/life.jpg)">
+                            
                         </a>
+                         <p>LIFE</p>
                     </div>
                     <div class="col-sm-4">
                         <a href="#" class="recent-work"
-                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/080301.jpg)">
-                            <span class="btn btn-o-white">グルメ</span>
+                           style="background-image:url(<!--{$TPL_URLPATH}-->flusk/images/fashion.jpg)">
+                            
                         </a>
+                         <p>FASHION</p>
                     </div>
                 </div>
             </section>
         </div>
     </div><!-- #portfolio -->
 
-    <div class="content-block parallax" id="services">
-        <div class="container text-center">
-            <header class="block-heading cleafix">
-                <h1>Hana Marche</h1>
-                <p>ココロとカラダが喜ぶアイテムを提供するテレビショッピング番組</p>
-            </header>
-            <section class="block-body">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="service">
-                            <h2>テレビショッピング番組</h2>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/q-F8vsGFgBM?rel=0"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div><!-- #services -->
+    
 
 
     <div class="content-block" id="blog">
         <div class="container">
             <header class="block-heading cleafix">
                 <a href="#" class="btn btn-o btn-lg pull-right">View All</a>
-                <h1>新着商品</h1>
-                <p>Keep up with the latest happenings.</p>
+                <h1>New Product</h1>
             </header>
             <section class="block-body">
                 <div class="row">
@@ -192,20 +234,6 @@
                 11(木)、12(金)、13(土)、17(水)、18(木)、19(金)、<br>
                 24(水)、26(金)、28(日)、29(月)、30(火)、31(水)<br>
 
-
-                ★☆歌謡ポップスチャンネル(CS　ch.329)☆★<br>
-
-                12(金)、17(水)、18(木)、<br>
-                20(土)、22(月)、30(火)<br>
-
-
-                ★☆J:com札幌エリア☆★<br>
-
-                絶賛、毎日放送中!<br>
-
-
-                夏真っ盛り!今月の「HANA MARCHE」は夏より熱いアイテム目白押し(^.^)
-                お見逃しなく!
             </p>
             <a href="" class="btn btn-o-white btn-lg">INFORMATION</a>
         </div>
@@ -214,8 +242,7 @@
     <div class="content-block" id="testimonials">
         <div class="container">
             <header class="block-heading cleafix">
-                <h1>今月のおすすめ</h1>
-                <p>Out recommendation product of this month.</p>
+                <h1>Recommended Products</h1>
             </header>
             <section class="block-body">
                 <div class="row">
@@ -320,7 +347,7 @@
 </div>
 
 
-<div class="container">
+<div class="container hidden">
 
     <div id="header_utility">
         <div id="header_navi" class="collapse navbar-collapse">
@@ -411,7 +438,7 @@
 
 
 <!-- for small mobile -->
-<section id="mobile-nav" class="hidden-md hidden-lg">
+<section id="mobile-nav" class="hidden-md hidden-lg hidden">
     <div class="container margin-bottom-lg">
         <form name="search_form" method="get" action="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php">
             <div class="input-group">

@@ -1,0 +1,234 @@
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP Warning:  ホスト名不一致を検出。リダイレクト実行。要求値='ecube2-lammn90.c9users.io' 設定値='localhost' リダイレクト先='http://localhost/html/install/'  in /home/ubuntu/workspace/data/class/SC_Initial.php on line 542
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   6. trigger_error() /home/ubuntu/workspace/data/class/SC_Initial.php:542
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/data/class/SC_Initial.php:542) in /home/ubuntu/workspace/data/class/SC_Response.php on line 336
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   6. SC_Response->sendHttpStatus() /home/ubuntu/workspace/data/class/SC_Initial.php:544
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   7. header() /home/ubuntu/workspace/data/class/SC_Response.php:336
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/data/class/SC_Initial.php:542) in /home/ubuntu/workspace/data/class/SC_Response.php on line 337
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   6. SC_Response->sendHttpStatus() /home/ubuntu/workspace/data/class/SC_Initial.php:544
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   7. header() /home/ubuntu/workspace/data/class/SC_Response.php:337
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP Fatal error:   in /home/ubuntu/workspace/data/class/SC_Response.php on line 195
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   6. SC_Response->sendRedirect() /home/ubuntu/workspace/data/class/SC_Initial.php:545
+[06-Sep-2016 12:15:08 Asia/Tokyo] PHP   7. trigger_error() /home/ubuntu/workspace/data/class/SC_Response.php:195
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP Warning:  ホスト名不一致を検出。リダイレクト実行。要求値='ecube2-lammn90.c9users.io' 設定値='localhost' リダイレクト先='http://localhost/html/install/index.php'  in /home/ubuntu/workspace/data/class/SC_Initial.php on line 542
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   6. trigger_error() /home/ubuntu/workspace/data/class/SC_Initial.php:542
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/data/class/SC_Initial.php:542) in /home/ubuntu/workspace/data/class/SC_Response.php on line 336
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   6. SC_Response->sendHttpStatus() /home/ubuntu/workspace/data/class/SC_Initial.php:544
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   7. header() /home/ubuntu/workspace/data/class/SC_Response.php:336
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/data/class/SC_Initial.php:542) in /home/ubuntu/workspace/data/class/SC_Response.php on line 337
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   6. SC_Response->sendHttpStatus() /home/ubuntu/workspace/data/class/SC_Initial.php:544
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   7. header() /home/ubuntu/workspace/data/class/SC_Response.php:337
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP Fatal error:   in /home/ubuntu/workspace/data/class/SC_Response.php on line 195
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   6. SC_Response->sendRedirect() /home/ubuntu/workspace/data/class/SC_Initial.php:545
+[06-Sep-2016 12:15:36 Asia/Tokyo] PHP   7. trigger_error() /home/ubuntu/workspace/data/class/SC_Response.php:195
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP Warning:  ホスト名不一致を検出。リダイレクト実行。要求値='ecube2-lammn90.c9users.io' 設定値='localhost' リダイレクト先='http://localhost/html/install/index.php'  in /home/ubuntu/workspace/data/class/SC_Initial.php on line 542
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   6. trigger_error() /home/ubuntu/workspace/data/class/SC_Initial.php:542
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/data/class/SC_Initial.php:542) in /home/ubuntu/workspace/data/class/SC_Response.php on line 336
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   6. SC_Response->sendHttpStatus() /home/ubuntu/workspace/data/class/SC_Initial.php:544
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   7. header() /home/ubuntu/workspace/data/class/SC_Response.php:336
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/data/class/SC_Initial.php:542) in /home/ubuntu/workspace/data/class/SC_Response.php on line 337
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   6. SC_Response->sendHttpStatus() /home/ubuntu/workspace/data/class/SC_Initial.php:544
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   7. header() /home/ubuntu/workspace/data/class/SC_Response.php:337
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP Fatal error:   in /home/ubuntu/workspace/data/class/SC_Response.php on line 195
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/install/index.php:0
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/install/index.php:35
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/data/require_base.php:31
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   4. SC_Initial->init() /home/ubuntu/workspace/data/app_initial.php:50
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   5. SC_Initial->normalizeHostname() /home/ubuntu/workspace/data/class/SC_Initial.php:60
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   6. SC_Response->sendRedirect() /home/ubuntu/workspace/data/class/SC_Initial.php:545
+[06-Sep-2016 12:20:45 Asia/Tokyo] PHP   7. trigger_error() /home/ubuntu/workspace/data/class/SC_Response.php:195
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/index.php:0
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   2. LC_Page_Admin_Index_Ex->process() /home/ubuntu/workspace/html/admin/index.php:28
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   3. LC_Page_Admin_Index->process() /home/ubuntu/workspace/data/class_extends/page_extends/admin/LC_Page_Admin_Index_Ex.php:54
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   4. LC_Page_Admin_Index->action() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:54
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   5. LC_Page_Admin_Index->lfDoLogin() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:75
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   6. LC_Page_Admin_Index->lfSetLoginSession() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:171
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   7. SC_Session->__construct() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:191
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   8. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:64
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   9. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP  10. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP  11. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP  12. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/index.php:0
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   2. LC_Page_Admin_Index_Ex->process() /home/ubuntu/workspace/html/admin/index.php:28
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   3. LC_Page_Admin_Index->process() /home/ubuntu/workspace/data/class_extends/page_extends/admin/LC_Page_Admin_Index_Ex.php:54
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   4. LC_Page_Admin_Index->action() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:54
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   5. LC_Page_Admin_Index->lfDoLogin() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:75
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   6. LC_Page_Admin_Index->lfSetLoginData() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:173
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   7. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:223
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   8. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP   9. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP  10. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:44:18 Asia/Tokyo] PHP  11. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/home.php:0
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/admin/home.php:23
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/html/admin/require.php:32
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP   4. SC_Helper_Session::adminAuthorization() /home/ubuntu/workspace/data/require_base.php:51
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP   5. SC_Session->__construct() /home/ubuntu/workspace/data/class/helper/SC_Helper_Session.php:252
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP   6. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP   7. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP   8. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP   9. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:44:19 Asia/Tokyo] PHP  10. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/home.php:0
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/admin/home.php:23
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/html/admin/require.php:32
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP   4. SC_Helper_Session::adminAuthorization() /home/ubuntu/workspace/data/require_base.php:51
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP   5. SC_Session->__construct() /home/ubuntu/workspace/data/class/helper/SC_Helper_Session.php:252
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP   6. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP   7. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP   8. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP   9. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:44:41 Asia/Tokyo] PHP  10. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/index.php:0
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   2. LC_Page_Admin_Index_Ex->process() /home/ubuntu/workspace/html/admin/index.php:28
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   3. LC_Page_Admin_Index->process() /home/ubuntu/workspace/data/class_extends/page_extends/admin/LC_Page_Admin_Index_Ex.php:54
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   4. LC_Page_Admin_Index->action() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:54
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   5. LC_Page_Admin_Index->lfDoLogin() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:75
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   6. LC_Page_Admin_Index->lfSetLoginSession() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:171
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   7. SC_Session->__construct() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:191
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   8. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   9. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP  10. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP  11. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP  12. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/index.php:0
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   2. LC_Page_Admin_Index_Ex->process() /home/ubuntu/workspace/html/admin/index.php:28
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   3. LC_Page_Admin_Index->process() /home/ubuntu/workspace/data/class_extends/page_extends/admin/LC_Page_Admin_Index_Ex.php:54
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   4. LC_Page_Admin_Index->action() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:54
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   5. LC_Page_Admin_Index->lfDoLogin() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:75
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   6. LC_Page_Admin_Index->lfSetLoginData() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:173
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   7. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:223
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   8. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   9. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP  10. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP  11. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/home.php:0
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/admin/home.php:23
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/html/admin/require.php:32
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   4. SC_Helper_Session::adminAuthorization() /home/ubuntu/workspace/data/require_base.php:51
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   5. SC_Session->__construct() /home/ubuntu/workspace/data/class/helper/SC_Helper_Session.php:252
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   6. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   7. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   8. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP   9. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:58:24 Asia/Tokyo] PHP  10. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/index.php:0
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   2. LC_Page_Admin_Index_Ex->process() /home/ubuntu/workspace/html/admin/index.php:28
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   3. LC_Page_Admin_Index->process() /home/ubuntu/workspace/data/class_extends/page_extends/admin/LC_Page_Admin_Index_Ex.php:54
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   4. LC_Page_Admin_Index->action() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:54
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   5. LC_Page_Admin_Index->lfDoLogin() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:75
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   6. LC_Page_Admin_Index->lfSetLoginSession() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:171
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   7. SC_Session->__construct() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:191
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   8. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   9. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP  10. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP  11. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP  12. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/index.php:0
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   2. LC_Page_Admin_Index_Ex->process() /home/ubuntu/workspace/html/admin/index.php:28
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   3. LC_Page_Admin_Index->process() /home/ubuntu/workspace/data/class_extends/page_extends/admin/LC_Page_Admin_Index_Ex.php:54
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   4. LC_Page_Admin_Index->action() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:54
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   5. LC_Page_Admin_Index->lfDoLogin() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:75
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   6. LC_Page_Admin_Index->lfSetLoginData() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:173
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   7. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/pages/admin/LC_Page_Admin_Index.php:223
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   8. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   9. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP  10. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP  11. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/home.php:0
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/admin/home.php:23
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/html/admin/require.php:32
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   4. SC_Helper_Session::adminAuthorization() /home/ubuntu/workspace/data/require_base.php:51
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   5. SC_Session->__construct() /home/ubuntu/workspace/data/class/helper/SC_Helper_Session.php:252
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   6. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   7. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   8. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP   9. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 18:16:18 Asia/Tokyo] PHP  10. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203

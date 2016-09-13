@@ -1,0 +1,60 @@
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/design/index.php:0
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/admin/design/index.php:24
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/html/admin/require.php:32
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP   4. SC_Helper_Session::adminAuthorization() /home/ubuntu/workspace/data/require_base.php:51
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP   5. SC_Session->__construct() /home/ubuntu/workspace/data/class/helper/SC_Helper_Session.php:252
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP   6. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP   7. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP   8. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP   9. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:58:31 Asia/Tokyo] PHP  10. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/design/index.php:0
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/admin/design/index.php:24
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/html/admin/require.php:32
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   4. SC_Helper_Session::adminAuthorization() /home/ubuntu/workspace/data/require_base.php:51
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   5. SC_Session->__construct() /home/ubuntu/workspace/data/class/helper/SC_Helper_Session.php:252
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   6. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   7. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   8. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   9. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP  10. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/design/index.php:0
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/admin/design/index.php:24
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/html/admin/require.php:32
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   4. SC_Helper_Session::adminAuthorization() /home/ubuntu/workspace/data/require_base.php:51
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   5. SC_Session->__construct() /home/ubuntu/workspace/data/class/helper/SC_Helper_Session.php:252
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   6. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   7. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   8. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP   9. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 12:58:55 Asia/Tokyo] PHP  10. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/design/template.php:0
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/admin/design/template.php:24
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/html/admin/require.php:32
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP   4. SC_Helper_Session::adminAuthorization() /home/ubuntu/workspace/data/require_base.php:51
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP   5. SC_Session->__construct() /home/ubuntu/workspace/data/class/helper/SC_Helper_Session.php:252
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP   6. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP   7. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP   8. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP   9. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 18:16:27 Asia/Tokyo] PHP  10. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP Warning:  error_log(/home/ubuntu/workspace/html/../data/logs/error.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/data/class/util/GC_Utils.php on line 203
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP Stack trace:
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/html/admin/design/up_down.php:0
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/html/admin/design/up_down.php:24
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP   3. require_once() /home/ubuntu/workspace/html/admin/require.php:32
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP   4. SC_Helper_Session::adminAuthorization() /home/ubuntu/workspace/data/require_base.php:51
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP   5. SC_Session->__construct() /home/ubuntu/workspace/data/class/helper/SC_Helper_Session.php:252
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP   6. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/SC_Session.php:61
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP   7. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP   8. SC_Helper_HandleError::handle_warning() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP   9. GC_Utils::gfPrintLog() /home/ubuntu/workspace/data/class/helper/SC_Helper_HandleError.php:111
+[06-Sep-2016 18:16:32 Asia/Tokyo] PHP  10. error_log() /home/ubuntu/workspace/data/class/util/GC_Utils.php:203

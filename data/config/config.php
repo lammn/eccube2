@@ -1,19 +1,19 @@
 <?php
 define('ECCUBE_INSTALL', 'ON');
-define('HTTP_URL', 'http://localhost:88/eccube2/html/');
-define('HTTPS_URL', 'http://localhost:88/eccube2/html/');
-define('ROOT_URLPATH', '/eccube2/html/');
+define('HTTP_URL', 'http://ecube2-lammn90.c9users.io/html/');
+define('HTTPS_URL', 'http://ecube2-lammn90.c9users.io/html/');
+define('ROOT_URLPATH', '/html/');
 define('DOMAIN_NAME', '');
 define('DB_TYPE', 'pgsql');
-define('DB_USER', 'postgres');
+define('DB_USER', 'ubuntu');
 define('DB_PASSWORD', 'mailam123');
 define('DB_SERVER', '127.0.0.1');
-define('DB_NAME', 'eccube2');
+define('DB_NAME', 'cube2');
 define('DB_PORT', '');
 define('ADMIN_DIR', 'admin/');
 define('ADMIN_FORCE_SSL', FALSE);
 define('ADMIN_ALLOW_HOSTS', 'a:0:{}');
-define('AUTH_MAGIC', 'haimunojougitheakioniwitridroutureacugel');
+define('AUTH_MAGIC', 'dibaelulouprehearaithetrouliasiothiamuba');
 define('PASSWORD_HASH_ALGOS', 'sha256');
 define('MAIL_BACKEND', 'mail');
 define('SMTP_HOST', '');
