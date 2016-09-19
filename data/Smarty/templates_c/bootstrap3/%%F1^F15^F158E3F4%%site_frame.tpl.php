@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.27, created on 2016-08-31 13:08:28
+<?php /* Smarty version 2.6.27, created on 2016-09-13 11:17:53
          compiled from site_frame.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'site_frame.tpl', 29, false),array('modifier', 'h', 'site_frame.tpl', 34, false),array('modifier', 'strlen', 'site_frame.tpl', 34, false),array('modifier', 'count', 'site_frame.tpl', 172, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'site_frame.tpl', 29, false),array('modifier', 'h', 'site_frame.tpl', 34, false),array('modifier', 'strlen', 'site_frame.tpl', 34, false),array('modifier', 'count', 'site_frame.tpl', 165, false),)), $this); ?>
 <!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="ja"><![endif]-->
 <!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="ja">	<![endif]-->
@@ -45,14 +45,7 @@ img/common/favicon.ico" />
 <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo ((is_array($_tmp=@HTTP_URL)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 rss/<?php echo ((is_array($_tmp=@DIR_INDEX_PATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 " />
-    <!-- new css -->
-    <!-- google fonts -->
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans'>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold"/>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+Sans:regular,italic,bold,bolditalic"/>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nixie+One:regular,italic,bold,bolditalic"/>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic"/>
-
+    
     <!-- css -->
     <link rel="stylesheet" href="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 flusk/css/bootstrap.min.css">

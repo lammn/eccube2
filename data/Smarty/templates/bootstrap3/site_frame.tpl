@@ -49,14 +49,7 @@
 <link rel="shortcut icon" href="<!--{$TPL_URLPATH}-->img/common/favicon.ico" />
 <link rel="icon" type="image/vnd.microsoft.icon" href="<!--{$TPL_URLPATH}-->img/common/favicon.ico" />
 <link rel="alternate" type="application/rss+xml" title="RSS" href="<!--{$smarty.const.HTTP_URL}-->rss/<!--{$smarty.const.DIR_INDEX_PATH}-->" />
-    <!-- new css -->
-    <!-- google fonts -->
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans'>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold"/>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+Sans:regular,italic,bold,bolditalic"/>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nixie+One:regular,italic,bold,bolditalic"/>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic"/>
-
+    
     <!-- css -->
     <link rel="stylesheet" href="<!--{$TPL_URLPATH}-->flusk/css/bootstrap.min.css">
     <link rel="stylesheet" href="<!--{$TPL_URLPATH}-->flusk/css/font-awesome.min.css">

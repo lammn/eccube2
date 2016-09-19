@@ -35,7 +35,10 @@
 (function(){
 
 	$wrapper = $('#wrapper');
+	$drawerLeft = $('#drawer-left');
 	$drawerRight = $('#drawer-right');
+	$leftHeader = $('#left_header');
+	$leftSlide = $('#left_slide');
 
 	///////////////////////////////
 	// Set Home Slideshow Height
@@ -66,20 +69,38 @@
 	// SlideNav
 	///////////////////////////////
 
-	function setSlideNav(){
+	function setSlideLeftNav(){
 		jQuery(".toggleDrawer").click(function(e){
 			//alert($wrapper.css('marginRight'));
 			e.preventDefault();
 
-			if($wrapper.css('marginLeft')=='0px'){
-				$drawerRight.animate({marginRight : 0},200);
-				$wrapper.animate({marginLeft : -300},200);
+			if($wrapper.css('marginRight')=='0px'){
+				$drawerLeft.animate({marginLeft : 0},200);
+				$wrapper.animate({marginRight : -300},200);
 			}
 			else{
-				$drawerRight.animate({marginRight : -300},200);
-				$wrapper.animate({marginLeft : 0},200);
+				$drawerLeft.animate({marginLeft : -300},200);
+				$wrapper.animate({marginRight : 0},200);
 			}
 			
+		})
+	}
+	
+	function setSlideRightNav(){
+		jQuery(".toggleDrawerRight").click(function(e){
+			//alert($wrapper.css('marginRight'));
+			e.preventDefault();
+
+			if($leftHeader.css('marginLeft')=='0px'){
+				$drawerRight.animate({marginRight : 0},200);
+				$leftHeader.animate({marginLeft : -300},200);
+				$leftSlide.animate({marginLeft : -300},200);
+			}
+			else{
+				$drawerRight.animate({marginRight : -340},200);
+				$leftHeader.animate({marginLeft : 0},200);
+				$leftSlide.animate({marginLeft : 0},200);
+			}
 		})
 	}
 
@@ -96,6 +117,7 @@
 
 
 
+
 	///////////////////////////////
 	// Initialize
 	///////////////////////////////
@@ -103,7 +125,8 @@
 	jQuery.noConflict();
 	setHomeBannerHeight();
 	centerHomeBannerText();
-	setSlideNav();
+	setSlideLeftNav();
+	setSlideRightNav();
 	setHeaderBackground();
 
 	//Resize events
@@ -128,5 +151,45 @@
 	jQuery(window).scroll( function() {
 	   setHeaderBackground();
 	});
-
+	
+	jQuery('a.recent-work span').hide();
+	
+	jQuery('a.recent-work').mouseover(function(e){
+		  var text = jQuery(this).find('i').text();
+		  jQuery(this).find('span').show();
+		  jQuery(this).find('i').hide();
+	});
+	
+	jQuery('a.recent-work').mouseout(function(){
+		  jQuery(this).find('span').hide();
+		  jQuery(this).find('i').show();
+	});
+	
+	jQuery('#slide_left').click(function(){
+		  var top = jQuery(this).attr("top");
+		  var fullUrl = jQuery("#full-url").val();
+		  top = parseInt(top) - 1;
+		  if(top == 0)
+			top = 4;
+		  jQuery("#header").fadeOut('slow');
+		  jQuery("#header").css("backgroundImage", "url("+fullUrl+"flusk/images/top"+top+".jpg)");
+		  jQuery("#header").fadeIn();
+		  jQuery(this).attr("top", top);
+		  jQuery("#slide_right").attr("top", top);
+	});
+	
+	jQuery('#slide_right').click(function(){
+		  var top = jQuery(this).attr("top");
+		  var fullUrl = jQuery("#full-url").val();
+		  top = parseInt(top) + 1;
+		  if(top > 4)
+			top = 1;
+		  
+		  jQuery("#header").fadeOut('slow');
+		  jQuery("#header").css("backgroundImage", "url("+fullUrl+"flusk/images/top"+top+".jpg)");
+		  jQuery("#header").fadeIn();
+		  jQuery(this).attr("top", top);
+		  jQuery("#slide_left").attr("top", top);
+	});
+	
 })();
