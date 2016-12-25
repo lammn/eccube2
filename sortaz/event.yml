@@ -1,0 +1,4 @@
+eccube.event.front.response:
+    - [onRenderAdmin, NORMAL]
+eccube.event.admin.response:
+    - [onRenderAdmin, NORMAL]

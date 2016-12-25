@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header {
-	background-image: url(../images/top1.jpg);
+	background-image: url(../images/TOP1.jpg);
 }
 #services {
 	background-image: url(../images/traffic.jpg);
@@ -321,14 +321,24 @@ h1, h2, h3, h4, h5, h6{
 	-webkit-transition: all .2s;
 	transition: all .2s;
 }
+
+.recent-work-before {
+    background: rgba(2, 56, 58, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    opacity: 1;
+}
 .recent-work:hover {
-    background-size: 200%;
+    /*background-size: 200%;*/
     background-position: center;
 }
 .recent-work:hover:before, .recent-work:hover span {
     opacity: 1;
 }
-
 
 
 
@@ -372,7 +382,7 @@ h1, h2, h3, h4, h5, h6{
 #testimonials{
 	text-align: center;
 }
-#testimonials .testimonial > img {
+.testimonial img {
     border-radius: 100%;
     margin-bottom: 15px;
 }

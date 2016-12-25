@@ -24,8 +24,3 @@
 <!--{strip}-->
 <!--{/strip}-->
 <!--▲FOOTER-->
-
-<script src="<!--{$TPL_URLPATH}-->flusk/js/jquery-migrate-1.2.1.min.js"></script>
-<script src="<!--{$TPL_URLPATH}-->flusk/js/jquery.actual.min.js"></script>
-<script src="<!--{$TPL_URLPATH}-->flusk/js/jquery.scrollTo.min.js"></script>
-<script src="<!--{$TPL_URLPATH}-->flusk/js/script.js"></script>

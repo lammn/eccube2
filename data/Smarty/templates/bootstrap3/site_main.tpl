@@ -74,20 +74,7 @@
     
     <div class="row row-offcanvas row-offcanvas-left"> 
       <!--{* ▼CENTER COLUMN *}-->
-      <div id="main_column" class="
-                        <!--{if $tpl_column_num == 3}-->
-                        col-sm-8 col-sm-push-4 col-md-6 col-md-push-3
-                        <!--{elseif $tpl_column_num == 2}-->
-                        col-sm-8 col-md-9
-                            <!--{if $arrPageLayout.LeftNavi|@count == 0}-->
-                            <!--{" "}-->col-sm-push-0 col-md-push-0 left 
-        <!--{else}--> 
-        <!--{" "}-->col-sm-push-4 col-md-push-3 right 
-        <!--{/if}--> 
-        <!--{else}--> 
-        col-md-10 col-md-offset-1 
-        <!--{/if}--> colnum<!--{$tpl_column_num|h}--> 
-        "> 
+      <div id="main_column"> 
         
         
 

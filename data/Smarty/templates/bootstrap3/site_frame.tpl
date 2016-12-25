@@ -51,7 +51,6 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="<!--{$smarty.const.HTTP_URL}-->rss/<!--{$smarty.const.DIR_INDEX_PATH}-->" />
     
     <!-- css -->
-    <link rel="stylesheet" href="<!--{$TPL_URLPATH}-->flusk/css/bootstrap.min.css">
     <link rel="stylesheet" href="<!--{$TPL_URLPATH}-->flusk/css/font-awesome.min.css">
     <link rel="stylesheet" href="<!--{$TPL_URLPATH}-->flusk/css/style.css" media="screen"/>
     <!-- Latest compiled and minified CSS -->
@@ -59,7 +58,30 @@
     <link rel="stylesheet" href="<!--{$smarty.const.ROOT_URLPATH}-->js/jquery.colorbox/colorbox.css" type="text/css" media="all" />
     <link rel="stylesheet" href="<!--{$TPL_URLPATH}-->css/import.css" type="text/css" media="all" />
 
-    <script src="<!--{$TPL_URLPATH}-->flusk/js/jquery-2.1.3.min.js"></script>
+   
+
+<!--{strip}-->
+    <!--{* ▼Head COLUMN*}-->
+    <!--{if $arrPageLayout.HeadNavi|@count > 0}-->
+        <!--{* ▼上ナビ *}-->
+        <!--{foreach key=HeadNaviKey item=HeadNaviItem from=$arrPageLayout.HeadNavi}-->
+            <!--{* ▼<!--{$HeadNaviItem.bloc_name}--> *}-->
+            <!--{if $HeadNaviItem.php_path != ""}-->
+                <!--{include_php file=$HeadNaviItem.php_path}-->
+            <!--{else}-->
+                <!--{include file=$HeadNaviItem.tpl_path}-->
+            <!--{/if}-->
+            <!--{* ▲<!--{$HeadNaviItem.bloc_name}--> *}-->
+        <!--{/foreach}-->
+        <!--{* ▲上ナビ *}-->
+    <!--{/if}-->
+    <!--{* ▲Head COLUMN*}-->
+<!--{/strip}-->
+</head>
+
+<!-- ▼BODY部 スタート -->
+<!--{include file='./site_main.tpl'}-->
+<script type="text/javascript" src="<!--{$TPL_URLPATH}-->flusk/js/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="<!--{$smarty.const.ROOT_URLPATH}-->js/eccube.js"></script>
 <!-- #2342 次期メジャーバージョン(2.14)にてeccube.legacy.jsは削除予定.モジュール、プラグインの互換性を考慮して2.13では残します. -->
 <script type="text/javascript" src="<!--{$smarty.const.ROOT_URLPATH}-->js/eccube.legacy.js"></script>
@@ -82,7 +104,9 @@
 
 <script src="<!--{$TPL_URLPATH}-->bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="<!--{$TPL_URLPATH}-->js/jquery.plugin.js"></script>
-
+<script type="text/javascript" src="<!--{$TPL_URLPATH}-->flusk/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="<!--{$TPL_URLPATH}-->flusk/js/jquery.actual.min.js"></script>
+<script type="text/javascript" src="<!--{$TPL_URLPATH}-->flusk/js/jquery.scrollTo.min.js"></script>
 
 
 <script type="text/javascript">
@@ -160,27 +184,8 @@
     });
 //]]></script>
 
-<!--{strip}-->
-    <!--{* ▼Head COLUMN*}-->
-    <!--{if $arrPageLayout.HeadNavi|@count > 0}-->
-        <!--{* ▼上ナビ *}-->
-        <!--{foreach key=HeadNaviKey item=HeadNaviItem from=$arrPageLayout.HeadNavi}-->
-            <!--{* ▼<!--{$HeadNaviItem.bloc_name}--> *}-->
-            <!--{if $HeadNaviItem.php_path != ""}-->
-                <!--{include_php file=$HeadNaviItem.php_path}-->
-            <!--{else}-->
-                <!--{include file=$HeadNaviItem.tpl_path}-->
-            <!--{/if}-->
-            <!--{* ▲<!--{$HeadNaviItem.bloc_name}--> *}-->
-        <!--{/foreach}-->
-        <!--{* ▲上ナビ *}-->
-    <!--{/if}-->
-    <!--{* ▲Head COLUMN*}-->
-<!--{/strip}-->
-</head>
 
-<!-- ▼BODY部 スタート -->
-<!--{include file='./site_main.tpl'}-->
+<script type="text/javascript" src="<!--{$TPL_URLPATH}-->flusk/js/script.js"></script>
 <!-- ▲BODY部 エンド -->
 
 </html>

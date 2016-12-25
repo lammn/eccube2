@@ -78,6 +78,91 @@
         <input type="hidden" name="rnd" value="<!--{$tpl_rnd|h}-->" />
     </form>
 
+    <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                   <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php">ALL</a>
+                    </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                   
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GOURMET <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">惣菜/加工品</a></li>
+                        <li><a href="#">野菜/フルーツ</a></li>
+                        <li><a href="#">肉/魚</a></li>
+                        <li><a href="#">米/パン/麺類</a></li>
+                        <li><a href="#">調味料</a></li>
+                        <li><a href="#">ドリンク/お酒</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BEAUTY <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">スキンケア</a></li>
+                        <li><a href="#">ヘアケア</a></li>
+                        <li><a href="#">ボディケア</a></li>
+                        <li><a href="#">メイク</a></li>
+                        <li><a href="#">美容グッズ</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HEALTH <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">健康食品</a></li>
+                        <li><a href="#">健康グッズ</a></li>
+                        <li><a href="#">ダイエット/フィットネス</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SWEETS <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">洋菓子</a></li>
+                        <li><a href="#">和菓子</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LIFE <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                         <li><a href="#">キッチン</a></li>
+                        <li><a href="#">バス/トイレ</a></li>
+                        <li><a href="#">サニタリー</a></li>
+                        <li><a href="#">インテリア</a></li>
+                        <li><a href="#">生活雑貨</a></li>
+                        <li><a href="#">その他</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FASHION <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">トップス</a></li>
+                        <li><a href="#">ボトムス</a></li>
+                        <li><a href="#">アウター</a></li>
+                        <li><a href="#">アクセサリー/ジュエリー</a></li>
+                        <li><a href="#">その他</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="navbar-form navbar-right" name="search_form" id="search_form" method="get" action="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php">
+                    <div class="form-group">
+                      <input type="hidden" name="mode" value="search" />
+                      <input type="text" name="name" class="form-control" maxlength="50" value="<!--{$smarty.get.name|h}-->" placeholder="キーワード" />
+                    </div>
+                    <button type="submit" class="btn btn-default">商品検索</button>
+                  </form>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+            
     <!--★タイトル★-->
     <h2 class="title"><!--{$tpl_subtitle|h}--> <small><span class="attention"><!--{$tpl_linemax}-->件</span>の商品</small></h2>
 
@@ -105,6 +190,7 @@
                 <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
                 <!--{if $tpl_linemax > 0}--><!--{$smarty.capture.page_navi_body|smarty:nodefaults}--><!--{/if}-->
             </form>
+            
             <div class="pagenumber_area clearfix">
                 <div class="change btn-group btn-group-justified">
                     <!--{if $orderby != 'price'}-->

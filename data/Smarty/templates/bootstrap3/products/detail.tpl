@@ -32,10 +32,96 @@
 //]]></script>
 
 <div id="undercolumn">
+    
+    <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                   <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php">ALL</a>
+                    </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                   
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GOURMET <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">惣菜/加工品</a></li>
+                        <li><a href="#">野菜/フルーツ</a></li>
+                        <li><a href="#">肉/魚</a></li>
+                        <li><a href="#">米/パン/麺類</a></li>
+                        <li><a href="#">調味料</a></li>
+                        <li><a href="#">ドリンク/お酒</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BEAUTY <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">スキンケア</a></li>
+                        <li><a href="#">ヘアケア</a></li>
+                        <li><a href="#">ボディケア</a></li>
+                        <li><a href="#">メイク</a></li>
+                        <li><a href="#">美容グッズ</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HEALTH <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">健康食品</a></li>
+                        <li><a href="#">健康グッズ</a></li>
+                        <li><a href="#">ダイエット/フィットネス</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SWEETS <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">洋菓子</a></li>
+                        <li><a href="#">和菓子</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LIFE <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                         <li><a href="#">キッチン</a></li>
+                        <li><a href="#">バス/トイレ</a></li>
+                        <li><a href="#">サニタリー</a></li>
+                        <li><a href="#">インテリア</a></li>
+                        <li><a href="#">生活雑貨</a></li>
+                        <li><a href="#">その他</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle dropdown-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FASHION <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-mymenu">
+                        <li><a href="#">トップス</a></li>
+                        <li><a href="#">ボトムス</a></li>
+                        <li><a href="#">アウター</a></li>
+                        <li><a href="#">アクセサリー/ジュエリー</a></li>
+                        <li><a href="#">その他</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="navbar-form navbar-right" name="search_form" id="search_form" method="get" action="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php">
+                    <div class="form-group">
+                      <input type="hidden" name="mode" value="search" />
+                      <input type="text" name="name" class="form-control" maxlength="50" value="<!--{$smarty.get.name|h}-->" placeholder="キーワード" />
+                    </div>
+                    <button type="submit" class="btn btn-default">商品検索</button>
+                  </form>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+            
     <form name="form1" id="form1" class="form-horizontal" method="post" action="?">
         <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
         <div id="detailarea" class="clearfix row">
-            <div id="detailphotobloc-wrap" class="col-md-6">
+            <div id="detailphotobloc-wrap" class="col-md-5">
                 <div id="detailphotobloc" class="">
                     <div class="photo margin-bottom-lg">
                         <!--{assign var=key value="main_image"}-->
@@ -101,7 +187,7 @@
     <!--▲サブコメント-->
 
             </div>
-            <div id="detailrightbloc-wrap" class="col-md-6">
+            <div id="detailrightbloc-wrap" class="col-md-7">
                 <div id="detailrightbloc" class="panel panel-default">
                     <!--▼商品ステータス-->
                     <!--{assign var=ps value=$productStatus[$tpl_product_id]}-->
@@ -137,16 +223,19 @@
                         <!--★通常価格★-->
                         <!--{if $arrProduct.price01_min_inctax > 0}-->
                             <dl class="normal_price">
-                               <dt><!--{$smarty.const.NORMAL_PRICE_TITLE}-->(税込)：</dt> 
-                                <dd class="price">
-                                    <span id="price01_default"><!--{strip}-->
+                               <dt>
+                                   <!--{$smarty.const.NORMAL_PRICE_TITLE}-->(税込)：
+                                   <span id="price01_default" class="price"><!--{strip}-->
                                         <!--{if $arrProduct.price01_min_inctax == $arrProduct.price01_max_inctax}-->
                                             <!--{$arrProduct.price01_min_inctax|number_format}-->
                                         <!--{else}-->
                                             <!--{$arrProduct.price01_min_inctax|number_format}-->～<!--{$arrProduct.price01_max_inctax|number_format}-->
                                         <!--{/if}-->
                                     <!--{/strip}--></span><span id="price01_dynamic"></span>
-                                    <small>(Tax-in)</small>
+                                    <small class="price">(Tax-in)</small>
+                               </dt> 
+                                <dd class="price">
+                                    
                                 </dd>
                             </dl>
                         <!--{/if}-->
@@ -155,7 +244,7 @@
                        
                             <dl class="sale_price">
                            
-                            <dd class="price">
+                            <dd class="price" style='font-size:18px;'>
                                 ￥<span id="price02_default"><!--{strip}-->
                                     <!--{if $arrProduct.price02_min_inctax == $arrProduct.price02_max_inctax}-->
                                         <!--{$arrProduct.price02_min_inctax|number_format}-->
@@ -215,13 +304,7 @@
                             </ul>
                         </li>
                         
-　　　　　　　　　　　<div class="main_comment"><!--{$arrProduct.main_comment|nl2br_html}--></div>
-
-                        <!--★詳細メインコメント★-->
-                        
-                    </div>
-
-                    <!--▼買い物かご-->
+                        <!--▼買い物かご-->
                     <div id="cart_area-wrap" class="panel-footer">
                         <div class="cart_area clearfix">
                             <input type="hidden" name="mode" value="cart" />
@@ -307,9 +390,18 @@
                             <!--{/if}-->
                         </div>
                     </div>
+                    
+　　　　　　　　　　　
+
+                        <!--★詳細メインコメント★-->
+                        
+                    </div>
+
+                    
                 </div>
             </div>
             <!--▲買い物かご-->
+            <div class="main_comment col-md-12 panel panel-default"><!--{$arrProduct.main_comment|nl2br_html}--></div>
         </div>
     </form>
 

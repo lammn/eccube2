@@ -19,53 +19,28 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  *}-->
-<script>
-    $(function(){
-        $('#owl-container').owlCarousel({
-            items: 4
-            ,itemsDesktop: [1199,3]
-            ,itemsDesktopSmall: [992,3]
-            ,itemsTablet: [768,3]
-            ,itemsMobile: [491,2]
-        });
-    });
-</script>
+ 
 <!--{strip}-->
     <!--{if count($arrBestProducts) > 0}-->
-        <div class="block_outer">
-            <div id="recommend_area">
-                <div class="page-header">
-                    <h2>
-                         今月のおすすめ
-                        <small class="pull-right">
-                            <a href="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php">
-                                全ての商品
-                            </a>
-                        </small>
-                    </h2>
-                </div>
-                <div>
+    <div class="container osumeme-block1" id='osusume-block'>
+            <header class="block-heading cleafix">
+                <h1>オススメ商品</h1>
+            </header>
+              <section class="block-body">
+                <div class="row">
                     <!--{foreach from=$arrBestProducts item=arrProduct name="recommend_products"}-->
-                        <div class="product_item col-xs-6 col-md-4 padding-xs">
-                            <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->" class="thumbnail">
-                                <img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct.main_image|sfNoImageMainList|h}-->" alt="<!--{$arrProduct.name|h}-->" class="img-responsive" />
-                                <div class="caption">
-                                    <h4 class="recommend-title"><!--{$arrProduct.name|h}--></h4>
-                                  <p class="recommend-price sale_price">
-                                    <span class="price">￥<!--{$arrProduct.price02_min_inctax|number_format}--></span>
-                                    </p>  
-                                <p class="recommend-comment mini comment"><!--{$arrProduct.comment|h|nl2br}--></p>
-　　　　　　　　　　　　　　　　　
-                                </div>
-                            </a>
+                        <div class="col-md-4">
+                            <div class="testimonial">
+                                <a href='<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->'>
+                                <img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct.main_image|sfNoImageMainList|h}-->" alt="<!--{$arrProduct.name|h}-->" height="220" width="220">
+                                </a>
+                                <p><!--{$arrProduct.name|h}--></p>
+                                <strong>￥<!--{$arrProduct.price02_min_inctax|number_format}--> (Tax-in)</strong>
+                            </div>
                         </div>
-                        <!--{if $smarty.foreach.recommend_products.iteration % 2 === 0}-->
-                            <!-- <div class="clear"></div> -->
-                        <!--{/if}-->
                     <!--{/foreach}-->
-                    <div style="clear:both"></div>
                 </div>
-            </div>
+            </section>    
         </div>
     <!--{/if}-->
 <!--{/strip}-->

@@ -1,0 +1,6 @@
+name: ソートA-Z
+code: SortAZ
+version: 1.0.0
+event: Event
+service:
+    - SortAZServiceProvider
